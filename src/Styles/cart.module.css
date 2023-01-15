@@ -1,0 +1,48 @@
+#cartcard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px; 
+    height: 100px;
+    margin-bottom: 20px;
+    background: rgb(221, 255, 163);
+    width: max-content;
+    padding: 30px; 
+}
+#cartcard> img{
+    height: 100%
+}
+#cart{
+    width: max-content;
+    margin: auto;
+    margin-top: 50px;
+    color: rgb(47, 65, 16);
+}
+
+#qtybox{
+    display: flex;
+    justify-content: center;
+    width: max-content;
+    align-items: center;
+    gap: 10px;
+    padding: 0 10px;
+    /* font-size: 20px; */
+    /* background: darkolivegreen; */
+    color: white;
+    box-sizing: border-box;
+}
+#qtybox>p{
+    background: darkolivegreen;
+    padding: 8px 15px;
+    box-sizing: border-box;
+}
+#qtybox>p:hover{
+    cursor: pointer;
+}
+
+#delbut{
+    background-color: darkolivegreen;
+    padding: 10px 20px;
+    color: white;
+    border: 0;
+}
